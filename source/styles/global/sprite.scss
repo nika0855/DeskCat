@@ -1,0 +1,409 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$advantage-clock-name: 'advantage-clock';
+$advantage-clock-x: 2042px;
+$advantage-clock-y: 506px;
+$advantage-clock-offset-x: -2042px;
+$advantage-clock-offset-y: -506px;
+$advantage-clock-width: 50px;
+$advantage-clock-height: 50px;
+$advantage-clock-total-width: 2207px;
+$advantage-clock-total-height: 2153px;
+$advantage-clock-image: '../images/sprite.png';
+$advantage-clock: (2042px, 506px, -2042px, -506px, 50px, 50px, 2207px, 2153px, '../images/sprite.png', 'advantage-clock', );
+$advantage-dining-name: 'advantage-dining';
+$advantage-dining-x: 2116px;
+$advantage-dining-y: 400px;
+$advantage-dining-offset-x: -2116px;
+$advantage-dining-offset-y: -400px;
+$advantage-dining-width: 50px;
+$advantage-dining-height: 50px;
+$advantage-dining-total-width: 2207px;
+$advantage-dining-total-height: 2153px;
+$advantage-dining-image: '../images/sprite.png';
+$advantage-dining: (2116px, 400px, -2116px, -400px, 50px, 50px, 2207px, 2153px, '../images/sprite.png', 'advantage-dining', );
+$advantage-leaf-name: 'advantage-leaf';
+$advantage-leaf-x: 1992px;
+$advantage-leaf-y: 506px;
+$advantage-leaf-offset-x: -1992px;
+$advantage-leaf-offset-y: -506px;
+$advantage-leaf-width: 50px;
+$advantage-leaf-height: 50px;
+$advantage-leaf-total-width: 2207px;
+$advantage-leaf-total-height: 2153px;
+$advantage-leaf-image: '../images/sprite.png';
+$advantage-leaf: (1992px, 506px, -1992px, -506px, 50px, 50px, 2207px, 2153px, '../images/sprite.png', 'advantage-leaf', );
+$advantage-powder-name: 'advantage-powder';
+$advantage-powder-x: 2116px;
+$advantage-powder-y: 450px;
+$advantage-powder-offset-x: -2116px;
+$advantage-powder-offset-y: -450px;
+$advantage-powder-width: 50px;
+$advantage-powder-height: 50px;
+$advantage-powder-total-width: 2207px;
+$advantage-powder-total-height: 2153px;
+$advantage-powder-image: '../images/sprite.png';
+$advantage-powder: (2116px, 450px, -2116px, -450px, 50px, 50px, 2207px, 2153px, '../images/sprite.png', 'advantage-powder', );
+$after-desktop-name: 'after-desktop';
+$after-desktop-x: 0px;
+$after-desktop-y: 917px;
+$after-desktop-offset-x: 0px;
+$after-desktop-offset-y: -917px;
+$after-desktop-width: 690px;
+$after-desktop-height: 517px;
+$after-desktop-total-width: 2207px;
+$after-desktop-total-height: 2153px;
+$after-desktop-image: '../images/sprite.png';
+$after-desktop: (0px, 917px, 0px, -917px, 690px, 517px, 2207px, 2153px, '../images/sprite.png', 'after-desktop', );
+$after-mobile-name: 'after-mobile';
+$after-mobile-x: 1760px;
+$after-mobile-y: 899px;
+$after-mobile-offset-x: -1760px;
+$after-mobile-offset-y: -899px;
+$after-mobile-width: 320px;
+$after-mobile-height: 240px;
+$after-mobile-total-width: 2207px;
+$after-mobile-total-height: 2153px;
+$after-mobile-image: '../images/sprite.png';
+$after-mobile: (1760px, 899px, -1760px, -899px, 320px, 240px, 2207px, 2153px, '../images/sprite.png', 'after-mobile', );
+$after-tablet-name: 'after-tablet';
+$after-tablet-x: 0px;
+$after-tablet-y: 400px;
+$after-tablet-offset-x: 0px;
+$after-tablet-offset-y: -400px;
+$after-tablet-width: 690px;
+$after-tablet-height: 517px;
+$after-tablet-total-width: 2207px;
+$after-tablet-total-height: 2153px;
+$after-tablet-image: '../images/sprite.png';
+$after-tablet: (0px, 400px, 0px, -400px, 690px, 517px, 2207px, 2153px, '../images/sprite.png', 'after-tablet', );
+$before-desktop-name: 'before-desktop';
+$before-desktop-x: 690px;
+$before-desktop-y: 400px;
+$before-desktop-offset-x: -690px;
+$before-desktop-offset-y: -400px;
+$before-desktop-width: 690px;
+$before-desktop-height: 517px;
+$before-desktop-total-width: 2207px;
+$before-desktop-total-height: 2153px;
+$before-desktop-image: '../images/sprite.png';
+$before-desktop: (690px, 400px, -690px, -400px, 690px, 517px, 2207px, 2153px, '../images/sprite.png', 'before-desktop', );
+$before-mobile-name: 'before-mobile';
+$before-mobile-x: 0px;
+$before-mobile-y: 1434px;
+$before-mobile-offset-x: 0px;
+$before-mobile-offset-y: -1434px;
+$before-mobile-width: 320px;
+$before-mobile-height: 240px;
+$before-mobile-total-width: 2207px;
+$before-mobile-total-height: 2153px;
+$before-mobile-image: '../images/sprite.png';
+$before-mobile: (0px, 1434px, 0px, -1434px, 320px, 240px, 2207px, 2153px, '../images/sprite.png', 'before-mobile', );
+$before-tablet-name: 'before-tablet';
+$before-tablet-x: 690px;
+$before-tablet-y: 917px;
+$before-tablet-offset-x: -690px;
+$before-tablet-offset-y: -917px;
+$before-tablet-width: 690px;
+$before-tablet-height: 517px;
+$before-tablet-total-width: 2207px;
+$before-tablet-total-height: 2153px;
+$before-tablet-image: '../images/sprite.png';
+$before-tablet: (690px, 917px, -690px, -917px, 690px, 517px, 2207px, 2153px, '../images/sprite.png', 'before-tablet', );
+$bg-map-desktop-name: 'bg-map-desktop';
+$bg-map-desktop-x: 0px;
+$bg-map-desktop-y: 0px;
+$bg-map-desktop-offset-x: 0px;
+$bg-map-desktop-offset-y: 0px;
+$bg-map-desktop-width: 1440px;
+$bg-map-desktop-height: 400px;
+$bg-map-desktop-total-width: 2207px;
+$bg-map-desktop-total-height: 2153px;
+$bg-map-desktop-image: '../images/sprite.png';
+$bg-map-desktop: (0px, 0px, 0px, 0px, 1440px, 400px, 2207px, 2153px, '../images/sprite.png', 'bg-map-desktop', );
+$bg-map-mobile-name: 'bg-map-mobile';
+$bg-map-mobile-x: 1440px;
+$bg-map-mobile-y: 899px;
+$bg-map-mobile-offset-x: -1440px;
+$bg-map-mobile-offset-y: -899px;
+$bg-map-mobile-width: 320px;
+$bg-map-mobile-height: 400px;
+$bg-map-mobile-total-width: 2207px;
+$bg-map-mobile-total-height: 2153px;
+$bg-map-mobile-image: '../images/sprite.png';
+$bg-map-mobile: (1440px, 899px, -1440px, -899px, 320px, 400px, 2207px, 2153px, '../images/sprite.png', 'bg-map-mobile', );
+$bg-map-tablet-name: 'bg-map-tablet';
+$bg-map-tablet-x: 1440px;
+$bg-map-tablet-y: 0px;
+$bg-map-tablet-offset-x: -1440px;
+$bg-map-tablet-offset-y: 0px;
+$bg-map-tablet-width: 767px;
+$bg-map-tablet-height: 400px;
+$bg-map-tablet-total-width: 2207px;
+$bg-map-tablet-total-height: 2153px;
+$bg-map-tablet-image: '../images/sprite.png';
+$bg-map-tablet: (1440px, 0px, -1440px, 0px, 767px, 400px, 2207px, 2153px, '../images/sprite.png', 'bg-map-tablet', );
+$buckwheat-big-desktop-name: 'buckwheat-big-desktop';
+$buckwheat-big-desktop-x: 245px;
+$buckwheat-big-desktop-y: 1945px;
+$buckwheat-big-desktop-offset-x: -245px;
+$buckwheat-big-desktop-offset-y: -1945px;
+$buckwheat-big-desktop-width: 245px;
+$buckwheat-big-desktop-height: 208px;
+$buckwheat-big-desktop-total-width: 2207px;
+$buckwheat-big-desktop-total-height: 2153px;
+$buckwheat-big-desktop-image: '../images/sprite.png';
+$buckwheat-big-desktop: (245px, 1945px, -245px, -1945px, 245px, 208px, 2207px, 2153px, '../images/sprite.png', 'buckwheat-big-desktop', );
+$buckwheat-big-tablet-name: 'buckwheat-big-tablet';
+$buckwheat-big-tablet-x: 644px;
+$buckwheat-big-tablet-y: 1434px;
+$buckwheat-big-tablet-offset-x: -644px;
+$buckwheat-big-tablet-offset-y: -1434px;
+$buckwheat-big-tablet-width: 324px;
+$buckwheat-big-tablet-height: 208px;
+$buckwheat-big-tablet-total-width: 2207px;
+$buckwheat-big-tablet-total-height: 2153px;
+$buckwheat-big-tablet-image: '../images/sprite.png';
+$buckwheat-big-tablet: (644px, 1434px, -644px, -1434px, 324px, 208px, 2207px, 2153px, '../images/sprite.png', 'buckwheat-big-tablet', );
+$buckwheat-small-desktop-name: 'buckwheat-small-desktop';
+$buckwheat-small-desktop-x: 1940px;
+$buckwheat-small-desktop-y: 1434px;
+$buckwheat-small-desktop-offset-x: -1940px;
+$buckwheat-small-desktop-offset-y: -1434px;
+$buckwheat-small-desktop-width: 245px;
+$buckwheat-small-desktop-height: 174px;
+$buckwheat-small-desktop-total-width: 2207px;
+$buckwheat-small-desktop-total-height: 2153px;
+$buckwheat-small-desktop-image: '../images/sprite.png';
+$buckwheat-small-desktop: (1940px, 1434px, -1940px, -1434px, 245px, 174px, 2207px, 2153px, '../images/sprite.png', 'buckwheat-small-desktop', );
+$buckwheat-small-tablet-name: 'buckwheat-small-tablet';
+$buckwheat-small-tablet-x: 1292px;
+$buckwheat-small-tablet-y: 1434px;
+$buckwheat-small-tablet-offset-x: -1292px;
+$buckwheat-small-tablet-offset-y: -1434px;
+$buckwheat-small-tablet-width: 324px;
+$buckwheat-small-tablet-height: 174px;
+$buckwheat-small-tablet-total-width: 2207px;
+$buckwheat-small-tablet-total-height: 2153px;
+$buckwheat-small-tablet-image: '../images/sprite.png';
+$buckwheat-small-tablet: (1292px, 1434px, -1292px, -1434px, 324px, 174px, 2207px, 2153px, '../images/sprite.png', 'buckwheat-small-tablet', );
+$chicken-big-desktop-name: 'chicken-big-desktop';
+$chicken-big-desktop-x: 0px;
+$chicken-big-desktop-y: 1945px;
+$chicken-big-desktop-offset-x: 0px;
+$chicken-big-desktop-offset-y: -1945px;
+$chicken-big-desktop-width: 245px;
+$chicken-big-desktop-height: 208px;
+$chicken-big-desktop-total-width: 2207px;
+$chicken-big-desktop-total-height: 2153px;
+$chicken-big-desktop-image: '../images/sprite.png';
+$chicken-big-desktop: (0px, 1945px, 0px, -1945px, 245px, 208px, 2207px, 2153px, '../images/sprite.png', 'chicken-big-desktop', );
+$chicken-big-tablet-name: 'chicken-big-tablet';
+$chicken-big-tablet-x: 320px;
+$chicken-big-tablet-y: 1434px;
+$chicken-big-tablet-offset-x: -320px;
+$chicken-big-tablet-offset-y: -1434px;
+$chicken-big-tablet-width: 324px;
+$chicken-big-tablet-height: 208px;
+$chicken-big-tablet-total-width: 2207px;
+$chicken-big-tablet-total-height: 2153px;
+$chicken-big-tablet-image: '../images/sprite.png';
+$chicken-big-tablet: (320px, 1434px, -320px, -1434px, 324px, 208px, 2207px, 2153px, '../images/sprite.png', 'chicken-big-tablet', );
+$chicken-small-desktop-name: 'chicken-small-desktop';
+$chicken-small-desktop-x: 928px;
+$chicken-small-desktop-y: 1674px;
+$chicken-small-desktop-offset-x: -928px;
+$chicken-small-desktop-offset-y: -1674px;
+$chicken-small-desktop-width: 245px;
+$chicken-small-desktop-height: 172px;
+$chicken-small-desktop-total-width: 2207px;
+$chicken-small-desktop-total-height: 2153px;
+$chicken-small-desktop-image: '../images/sprite.png';
+$chicken-small-desktop: (928px, 1674px, -928px, -1674px, 245px, 172px, 2207px, 2153px, '../images/sprite.png', 'chicken-small-desktop', );
+$chicken-small-tablet-name: 'chicken-small-tablet';
+$chicken-small-tablet-x: 604px;
+$chicken-small-tablet-y: 1674px;
+$chicken-small-tablet-offset-x: -604px;
+$chicken-small-tablet-offset-y: -1674px;
+$chicken-small-tablet-width: 324px;
+$chicken-small-tablet-height: 172px;
+$chicken-small-tablet-total-width: 2207px;
+$chicken-small-tablet-total-height: 2153px;
+$chicken-small-tablet-image: '../images/sprite.png';
+$chicken-small-tablet: (604px, 1674px, -604px, -1674px, 324px, 172px, 2207px, 2153px, '../images/sprite.png', 'chicken-small-tablet', );
+$fish-big-desktop-name: 'fish-big-desktop';
+$fish-big-desktop-x: 490px;
+$fish-big-desktop-y: 1945px;
+$fish-big-desktop-offset-x: -490px;
+$fish-big-desktop-offset-y: -1945px;
+$fish-big-desktop-width: 245px;
+$fish-big-desktop-height: 208px;
+$fish-big-desktop-total-width: 2207px;
+$fish-big-desktop-total-height: 2153px;
+$fish-big-desktop-image: '../images/sprite.png';
+$fish-big-desktop: (490px, 1945px, -490px, -1945px, 245px, 208px, 2207px, 2153px, '../images/sprite.png', 'fish-big-desktop', );
+$fish-big-tablet-name: 'fish-big-tablet';
+$fish-big-tablet-x: 968px;
+$fish-big-tablet-y: 1434px;
+$fish-big-tablet-offset-x: -968px;
+$fish-big-tablet-offset-y: -1434px;
+$fish-big-tablet-width: 324px;
+$fish-big-tablet-height: 208px;
+$fish-big-tablet-total-width: 2207px;
+$fish-big-tablet-total-height: 2153px;
+$fish-big-tablet-image: '../images/sprite.png';
+$fish-big-tablet: (968px, 1434px, -968px, -1434px, 324px, 208px, 2207px, 2153px, '../images/sprite.png', 'fish-big-tablet', );
+$fish-small-desktop-name: 'fish-small-desktop';
+$fish-small-desktop-x: 980px;
+$fish-small-desktop-y: 1945px;
+$fish-small-desktop-offset-x: -980px;
+$fish-small-desktop-offset-y: -1945px;
+$fish-small-desktop-width: 245px;
+$fish-small-desktop-height: 174px;
+$fish-small-desktop-total-width: 2207px;
+$fish-small-desktop-total-height: 2153px;
+$fish-small-desktop-image: '../images/sprite.png';
+$fish-small-desktop: (980px, 1945px, -980px, -1945px, 245px, 174px, 2207px, 2153px, '../images/sprite.png', 'fish-small-desktop', );
+$fish-small-tablet-name: 'fish-small-tablet';
+$fish-small-tablet-x: 1616px;
+$fish-small-tablet-y: 1434px;
+$fish-small-tablet-offset-x: -1616px;
+$fish-small-tablet-offset-y: -1434px;
+$fish-small-tablet-width: 324px;
+$fish-small-tablet-height: 174px;
+$fish-small-tablet-total-width: 2207px;
+$fish-small-tablet-total-height: 2153px;
+$fish-small-tablet-image: '../images/sprite.png';
+$fish-small-tablet: (1616px, 1434px, -1616px, -1434px, 324px, 174px, 2207px, 2153px, '../images/sprite.png', 'fish-small-tablet', );
+$index-can-desktop-name: 'index-can-desktop';
+$index-can-desktop-x: 1440px;
+$index-can-desktop-y: 400px;
+$index-can-desktop-offset-x: -1440px;
+$index-can-desktop-offset-y: -400px;
+$index-can-desktop-width: 552px;
+$index-can-desktop-height: 499px;
+$index-can-desktop-total-width: 2207px;
+$index-can-desktop-total-height: 2153px;
+$index-can-desktop-image: '../images/sprite.png';
+$index-can-desktop: (1440px, 400px, -1440px, -400px, 552px, 499px, 2207px, 2153px, '../images/sprite.png', 'index-can-desktop', );
+$index-can-mobile-name: 'index-can-mobile';
+$index-can-mobile-x: 0px;
+$index-can-mobile-y: 1674px;
+$index-can-mobile-offset-x: 0px;
+$index-can-mobile-offset-y: -1674px;
+$index-can-mobile-width: 280px;
+$index-can-mobile-height: 271px;
+$index-can-mobile-total-width: 2207px;
+$index-can-mobile-total-height: 2153px;
+$index-can-mobile-image: '../images/sprite.png';
+$index-can-mobile: (0px, 1674px, 0px, -1674px, 280px, 271px, 2207px, 2153px, '../images/sprite.png', 'index-can-mobile', );
+$map-pin-name: 'map-pin';
+$map-pin-x: 1992px;
+$map-pin-y: 400px;
+$map-pin-offset-x: -1992px;
+$map-pin-offset-y: -400px;
+$map-pin-width: 124px;
+$map-pin-height: 106px;
+$map-pin-total-width: 2207px;
+$map-pin-total-height: 2153px;
+$map-pin-image: '../images/sprite.png';
+$map-pin: (1992px, 400px, -1992px, -400px, 124px, 106px, 2207px, 2153px, '../images/sprite.png', 'map-pin', );
+$rice-small-desktop-name: 'rice-small-desktop';
+$rice-small-desktop-x: 735px;
+$rice-small-desktop-y: 1945px;
+$rice-small-desktop-offset-x: -735px;
+$rice-small-desktop-offset-y: -1945px;
+$rice-small-desktop-width: 245px;
+$rice-small-desktop-height: 174px;
+$rice-small-desktop-total-width: 2207px;
+$rice-small-desktop-total-height: 2153px;
+$rice-small-desktop-image: '../images/sprite.png';
+$rice-small-desktop: (735px, 1945px, -735px, -1945px, 245px, 174px, 2207px, 2153px, '../images/sprite.png', 'rice-small-desktop', );
+$rice-small-tablet-name: 'rice-small-tablet';
+$rice-small-tablet-x: 280px;
+$rice-small-tablet-y: 1674px;
+$rice-small-tablet-offset-x: -280px;
+$rice-small-tablet-offset-y: -1674px;
+$rice-small-tablet-width: 324px;
+$rice-small-tablet-height: 174px;
+$rice-small-tablet-total-width: 2207px;
+$rice-small-tablet-total-height: 2153px;
+$rice-small-tablet-image: '../images/sprite.png';
+$rice-small-tablet: (280px, 1674px, -280px, -1674px, 324px, 174px, 2207px, 2153px, '../images/sprite.png', 'rice-small-tablet', );
+$spritesheet-width: 2207px;
+$spritesheet-height: 2153px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($advantage-clock, $advantage-dining, $advantage-leaf, $advantage-powder, $after-desktop, $after-mobile, $after-tablet, $before-desktop, $before-mobile, $before-tablet, $bg-map-desktop, $bg-map-mobile, $bg-map-tablet, $buckwheat-big-desktop, $buckwheat-big-tablet, $buckwheat-small-desktop, $buckwheat-small-tablet, $chicken-big-desktop, $chicken-big-tablet, $chicken-small-desktop, $chicken-small-tablet, $fish-big-desktop, $fish-big-tablet, $fish-small-desktop, $fish-small-tablet, $index-can-desktop, $index-can-mobile, $map-pin, $rice-small-desktop, $rice-small-tablet, );
+$spritesheet: (2207px, 2153px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

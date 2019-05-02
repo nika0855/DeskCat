@@ -1,5 +1,5 @@
 {
-  "name": "landing-cat",
+  "name": "deskcat",
   "version": "1.0.0",
   "description": "* Убедиться что уставновленный node.js и npm. Для этого достаточно написать в терминале\r > node -v",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nika0855/landing-cat.git"
+    "url": "git+https://github.com/nika0855/DeskCat.git"
   },
   "author": "Andrey",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nika0855/landing-cat/issues"
+    "url": "https://github.com/nika0855/DeskCat/issues"
   },
-  "homepage": "https://github.com/nika0855/landing-cat#readme",
+  "homepage": "https://github.com/nika0855/DeskCat#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
