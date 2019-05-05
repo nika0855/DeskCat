@@ -7,4 +7,56 @@ html(lang='ru')
 		link(rel="stylesheet" href="css/main.min.css")
 		title CatEnergy
 body
-	h2 gulp
+	.wrapper
+		.first-screen
+			nav.nav.view-port
+				.nav__brand cat
+				ul.nav__menu.site-list
+					li.nav__item.nav__item--active
+						a.nav__link Главная
+							span.nav__menu-border
+					li.nav__item
+						a.nav__link(href='catalog.html') Каталог продукции
+							span.nav__menu-border
+					li.nav__item
+						a.nav__link(href='form.html') Подбор программы
+							span.nav__menu-border
+			header.header
+				.header__images
+				h2.header__title Функциональное питание для котов
+				h3.header__subtitle занялся собой?займись котом!
+				button.header__btn подобрать программу
+		main.page-main
+			section.categories
+				.categories-column.categories-column__right
+					.categories-column__right.categories-column__right--img
+					h2.categories-column__title Похудение
+					p.categories-column__text
+						| Ваш кот весит больше собаки и
+						| почти утратил способность лазить
+						| по деревьям? Пора на диету!
+						| Cat Energy Slim поможет вашему
+						| питомцу сбросить лишний вес.
+					.categories-column__slim
+						h3.categories-column__title--smail каталог
+						a.categories-column__link.categories-column__link--arrow(href='#')
+							img(src='img/icon-right-arrow-long.svg', width='24', height='11', alt='right-arrow')
+				.categories-column.categories-column__left
+					.categories-column__left.categories-column__left--img
+					h2.categories-column__title Набор массы
+					p.categories-column__text
+						| Заработать авторитет среди
+						| дворовых котов и даже собак?
+						| Серия Cat Energy Pro поможет
+						| вашему коту нарастить
+						| необходимые мышцы!
+					.categories-column__pro
+						h3.categories-column__title--smail каталог
+						a.categories-column__link.categories-column__link--arrow(href='#')
+							img(src='img/icon-right-arrow-long.svg', width='24', height='11', alt='right-arrow')
+
+
+	
+	//- include sections/header
+	//- include sections/hero
+	//- include sections/page-main

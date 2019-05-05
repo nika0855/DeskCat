@@ -1,0 +1,9 @@
+.categories {
+	display: flex;
+	justify-content: space-between;
+	max-width: $view-port;
+	position: relative;
+	top: 90px;
+	margin: 10px 110px 50px;
+	border:$bor;
+}

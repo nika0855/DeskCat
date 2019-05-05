@@ -1,0 +1,128 @@
+/* .page-header {
+ 	display: flex;
+ 	flex-direction: column;
+
+ }
+
+.page-header__app{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  border: $bor;
+}
+.page-header__title {
+  color: #ffffff;
+  font-family: "Oswald",Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.page-header__title--small {
+  color: #ffffff;
+  font-family: "Oswald",Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.page-header__widget {
+	min-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+ 
+  // Style for "index-back"
+		width: 552px;
+		height: 560px;
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	border: 1px solid green;
+}
+.page-header__widget--left{
+	border:$bor;
+	max-width: 720px;
+	height:auto;
+}
+.page-header__widget--right{
+  border:$bor;
+	max-width: 720px;
+}
+
+.header__btn {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}*/
+
+.header {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;  
+  align-items: flex-start;
+  flex: 1 0 auto;
+  margin-left: 190px;
+  
+  
+
+  &__title {
+    // Style for "Функционал"
+width: 450px;
+height: 122px;
+color: $c-f-header;
+font-family: 'Oswald', sans-serif;
+font-size: 60px;
+
+line-height: 60px;
+margin-bottom: 33px;
+  &::after {
+    position: absolute;
+    top: 90px;
+    right: 385px;
+    content: "";
+    width: 552px;
+    height: 499px;
+    background-image: url(/images/index-can-desktop.png);
+    z-index:15;
+  }
+  }
+
+  &__subtitle {
+    // Style for "Занялся со"
+width: 292px;
+height: 22px;
+color: $c-f-header;
+font-family: 'Oswald';
+font-size: 20px;
+
+line-height: 20px;
+text-transform: uppercase;
+margin-bottom: 53px;
+  }
+
+  &__btn {
+    // Style for "Подобрать"
+// Style for "green butt"
+width: 245px;
+height: 52px;
+background-color: $c-bnt-header;
+color: $c-wtite;
+font-family: 'Oswald';
+font-size: 20px;
+
+line-height: 20px;
+text-transform: uppercase;
+  }
+}
+.header__images {
+  position: absolute;
+  left: 700px;
+  width: 720px;
+  height: 698px;
+  background: url(/images/index-background-desktop%401x.jpg) no-repeat;
+  z-index: 1;
+}

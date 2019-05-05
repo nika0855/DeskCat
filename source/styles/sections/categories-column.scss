@@ -1,0 +1,115 @@
+.categories-column {
+
+	&__right {
+    width: 570px;
+
+	}
+
+	&__left {
+    width: 570px;
+	}
+
+	&__title {
+		// Style for "Похудение"
+width: 210px;
+height: 36px;
+color: $c-f-header;
+font-family: 'Oswald';
+font-size: 36px;
+margin-left: 200px;
+line-height: 37.02px;
+text-transform: uppercase;  
+	}
+
+	&__text {
+		// Style for "Ваш кот ве"
+		width: 462px;
+		height: 64px;
+		color: #444444;
+		font-family: "Arial MT";
+		font-size: 16px;
+	padding: 0 52px 0;
+		line-height: 24px;
+	}
+
+	&__slim {
+		height: 100px;
+	}
+
+	&__pro {
+		height:100px;
+	}
+}
+.categories-column__title--smail{
+		  	// Style for "Каталог Sl"
+		// width: 106px;
+		// height: 18px;
+		color: $c-f-header;
+		font-family: 'Oswald';
+		font-size: 20px;
+
+		line-height: 20px;
+		text-transform: uppercase;
+}
+.categories-column__left--img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 11px;
+    background-color: #68b738;
+    border-radius: 50%;
+    width:100%;
+    height: 100%;
+    display:block;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    background-image: url("../images/icon-cat-pro.svg");
+    background-size: 134px, 56px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:134px;
+    height: 100%;
+  }
+}
+
+.categories-column__right--img {
+  position:relative;
+  width: 100px;
+  height: 100px;
+
+
+  &::before{
+  	position: absolute;
+    content:"";
+    top: 90px;
+    left: 46px;
+    background-color: #68b738;
+    border-radius: 50%;
+    width:100%;
+    height: 100%;
+    display:block;
+  }
+  &::after{
+  	position: absolute;
+    content:"";
+    top:90px;
+    left:46px;
+    position: absolute;
+    background-image: url("../images/icon-cat-slim.svg");
+    background-size: 70px, 97px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+  }
+
+}

@@ -3,3 +3,18 @@
 
 @import "global/fonts";
 @import "global/mixins";
+@import "global/media";
+@import "global/sprite";
+@import "global/base";
+@import "global/common";
+@import "global/vars";
+
+
+@import "sections/header";
+@import "sections/nav";
+@import "sections/hero";
+@import "sections/categories";
+@import "sections/categories-column";
+// @import "sections/categories-column--left";
+@import "sections/page-main";
+@import "sections/advantages";
