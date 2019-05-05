@@ -1,0 +1,32 @@
+.icon {
+	margin: auto auto 23px auto;
+}
+
+.advantage-leaf {
+	position: relative;
+	left:-85px;
+	@include sprite($advantage-leaf);
+	background-color: #68b738;	
+}
+
+.advantage-powder {
+position: relative;
+	left:-85px;
+	@include sprite($advantage-powder);
+	background-color: #68b738;
+}
+
+.advantage-dining {
+position: relative;
+	left:-85px;
+	@include sprite($advantage-dining);
+	background-color: #68b738;
+}
+
+.advantage-clock {
+position: relative;
+	left:-85px;
+	@include sprite($advantage-clock);
+	background-color: #68b738;
+
+}

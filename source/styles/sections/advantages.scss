@@ -1,0 +1,23 @@
+.advantages {
+	padding: 79px 0 87px;
+
+	&__title {
+		color: $c-f-header;
+		font-family: 'Oswald';
+		font-size: 60px;
+		line-height: 60px;
+		margin-left: 50px;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: 0;
+		padding: 25px 50px 48px;
+	}
+
+	&__item {
+		width: 18.5%;
+	}
+}
